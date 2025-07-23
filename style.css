@@ -179,7 +179,7 @@ body.sidebar-open #overlay {
 }
 .about-us-body,
 .contact-us-body{
-    height: 1700px
+    height: 1650px
 }
 .about-us-first-section{
    background: linear-gradient(160deg, #bfed4a 70%, #cde4a4 80%, #c99e59 95%);
@@ -466,10 +466,7 @@ position: relative;
 
     margin: 20px 0px 0px 0px;
 }
-.cta-button-contact-us{
-    width: 320px;
-    margin: 50px 0px 0px 0px;
-}
+
 .cta-button:hover,
 .cta-button1:hover,
 .cta-button2:hover,
@@ -568,6 +565,9 @@ position: relative;
 .footer-divider{
     margin-bottom: 2%;
 }
+.about-us-sub-main-content{
+    width: 90%;
+}
 .about-us-sub1{
     font-family: 'fahkwang', 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -575,7 +575,7 @@ position: relative;
     margin-bottom: 40px;;
 }
 .about-us-sub2{
-    margin:0 0px 40px 40px ;
+    margin:0 0px 40px 0 ;
     text-align: center;
     font-size: larger;
     font-family: 'Trebuchet MS', sans-serif ;
@@ -730,13 +730,13 @@ position: relative;
     padding: 20px 10px;
   }
   .second-section{
-    height: 2600px;
+    height: 2100px;
     width: 100%;
     margin: 0 0 10px 0;
   }
 .bottom-section {
-    height: 100%;
-    margin: 0 0 100px 0;
+    height: 965px;
+    margin: 0 0 40px 0;
     padding: 20px 0;
 }
 #main-content{
@@ -757,7 +757,7 @@ position: relative;
     width: 100%;
   }
   .mainContent-text1 {
-    font-size: 250%;
+    font-size: 200%;
   }
   #background-img{
     width: 100%;
@@ -797,30 +797,32 @@ position: relative;
         margin-right: 20px;
     }
 
-    .img-mainContent2,
-    .img-mainContent3{
+    .img-mainContent2{
         width: 90%;
-        height: 50%;
+        height: 30%;
         margin: 20px 30px 0 20px;
     }
     .img-mainContent2a{
         width: 90%;
         height: 30%;
-        margin: 50px 30px 0 20px;
+        margin: 20px 30px 0 20px;
     }
-    
+    .img-mainContent3{
+        width: 90%;
+        height: 40%;
+        margin: 20px 30px 20px 20px;
+    }
     .our-platform {
         flex-direction: column;
-        height: 1190px;
+        height: 890px;
         margin: 0;
-        padding: 0px;
     }
     #our-platform-a{
-    height: 990px;
+    height: 800px;
    
     }
     #our-platform-b{
-        height: 760px;
+        height: 790px;
     }
     .our-platform2,
     .our-platform3,
@@ -829,25 +831,24 @@ position: relative;
         width: 100%;
         flex-direction: column;
     }
-    
     .our-platform2{ 
         margin-left: 10px;
-        height: 55%;
+        height: 65%;
         } 
     .our-platform3 {
-        height: 50%;
-        margin: 10px 1px 0 0
+        height: 60%;
+        margin: 90px 1px 40px 0;
     }
     .our-platform4 {
-        height: 50%;
-        margin: 5px 1px 10px 0;
+        height: 55%;
+        margin: 0 10px 0 10px;
     }
     .cta-div2{
         position: relative;
         display: flex;
         justify-content: center;
         width: 90%;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
     }
     .cta-div2-about-us{
         display: flex;
@@ -856,12 +857,15 @@ position: relative;
         align-self: flex-start;
         justify-content: center;
         width: 90%;
-        margin: 40px 0 40px ;
+        margin: 40px 0 0 30px ;
         }
     .cta-sub-div2,
     .cta-sub-div2-about-us{
-            width: 90%;
-        }
+        width: 90%;
+    }
+    .cta-sub-div2{
+        margin-bottom: 50px;
+    }
     .cta-form-about-us{
         background-color: #201e1f;
         border-radius: 40px;
@@ -869,12 +873,46 @@ position: relative;
         min-width: auto;
         height: 200px;
         }
+    .cta-form{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .cta-input-fields{
+        width: 60%;
+    }
+    .cta-button{
+        width: 80%;
+        margin: 10px 0 0 40px;
+        font-size: 1rem;
+        height: 45px;
+        width: 50%;
+    }
+    .cta-button1{
+        width: 80%;
+        margin: 190px auto 0 auto;
+        font-size: 1rem;
+        height: 45px;
+    }
+    .cta-button2 {
+        width: 80%;
+        margin: 25px auto 0;
+        font-size: 1rem;
+        height: 45px;
+    }
+    .cta-button-about-us{
+        margin: 20px 0 0 20px;
+    }
+    .cta-button-contact-us{
+        width: 40%;
+        margin: 20px 10px 0px 30px;
+    }
     .video-decorator,
     .coffee-video {
         width: 100%;
         height: 100%;
+        border-radius: 900px;
         overflow: hidden;
-        margin-right: 40px;
     }
     .our-model-header{
         height: 100%;
@@ -908,29 +946,10 @@ position: relative;
         height: 50%;
         margin-bottom: 0px;
     }
-  .our-platform-headertext {
-    font-size: 1.5rem;
-    margin: 50px 0 20px;
-    text-align: center;
-  }
-    .cta-button{
-        width: 80%;
-        margin: 0px auto 0px auto;
-        font-size: 1rem;
-        height: 45px;
-        width: 50%;
-    }
-    .cta-button1{
-        width: 80%;
-        margin: 190px auto 0 auto;
-        font-size: 1rem;
-        height: 45px;
-    }
-    .cta-button2 {
-        width: 80%;
-        margin: 25px auto 0;
-        font-size: 1rem;
-        height: 45px;
+    .our-platform-headertext {
+        font-size: 1.5rem;
+        margin: 50px 0 20px;
+        text-align: center;
     }
     .footer-divider{
         margin: 0 0 0 0%;
@@ -952,22 +971,29 @@ position: relative;
         width: 100%;
         height: 50%;
     }
+    .contact-left button{
+       display: flex;
+       align-items: center;
+       margin-bottom: 20px;
+    }
     .contact-inputs{
-        width: 80%;  
+        width: 80%; 
+        height: 90px; 
+    }
+    .contact-left-title{
+        color: rgb(43, 45, 42);
+        font-size: 40px;
+        margin: 60px;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .contact-right{
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
         height: 50%;
-    }
-    .cta-form{
-        width: 100%;
-        height: 200px;
-        margin-bottom: 250px;
-
-    }
-    .cta-input-fields{
-        width: 60%;
-
+        padding-bottom:240px;
+        margin-left: 20px;
     }
 
 }
