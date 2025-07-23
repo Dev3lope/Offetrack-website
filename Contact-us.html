@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Offetrack</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+</head>
+ 
+<body class="contact-us-body">
+    <section class="about-us-first-section">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+                <img src="assets/menu_40dp_C9C9C9_FILL0_wght300_GRAD0_opsz40.svg">
+        </button>
+        <Nav id="navbar">
+                <img class="logo-image" src="assets/Offetrack-CreamWhiteLogo4.svg" alt ="logo image">
+                <ul class="nav-ul">
+                        <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="open"> <img src="assets/close_40dp_C9C9C9_FILL0_wght300_GRAD0_opsz40.svg"></button>
+                        <li class="home-li"><a class="active-link" href="index.html" aria-current="page">Offetrack</a></li>
+                        <li class="about-li"><a href="About-Us.html">About</a></li>
+                        <li class="contact-li"><a href="Contact-us.html">Contact</a></li>
+                </ul>
+        </Nav>   <meta charset="UTF-8">
+
+        <Main id="main-content">
+            <div class="paragraph1">
+                <div class="intro-text"> 
+                    <h1 class="mainContent-text1">Please share any queries below <span class="unique-color"></h1>
+                </div>  
+                <div id="background-img">
+                    <div class="intro-herotext">      
+                        <p class="mainContent-text2"> We'll get back to you soon!</p>
+                    </div>
+                    <div class="img-div1">
+                        <img class="img-mainContent1b" src="assets/Phone hanging.png" alt="image">
+                    </div>
+                                       
+                </div>
+            </div> 
+        </Main> 
+    </section>
+
+    <div class="contact-left-title">
+        <h2>Get in touch</h2>
+    </div>
+
+    <div class="my-form">
+            <form method="post" action="https://formsubmit.co/auriolchristian@offetrack.com" class="contact-left">
+ 
+                <input type="text" name="name" placeholder="Enter your name" class="contact-inputs" required aria-label="Name">
+                <input type="email" name="email" placeholder="Enter your email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button class="submit-btn" type="submit">Submit <img src="assets/arrow_icon.png" alt ="Arrow"></button>
+            </form>
+            
+            <div class="contact-right">
+                <form method="post" action="https://script.google.com/macros/s/AKfycbxe07GdPBhKnLlWsSWg4FEQ0GKFhKrG3EmUuXgINZHFh_lK7jPk2XwXfSV_rd0mYtVgdA/exec" 
+                             name="Waitlist-form" class="cta-form">
+                    <div class="cta-input-fields">
+                        <input type="text" name="your-name" placeholder="First & Last Name" class="cta-email-field" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" class="cta-email-field" required>
+                    </div>
+                    <button class="cta-button-about-us" >Join Our Waitlist</button>
+                </form>
+            </div> 
+    </div>
+</body>
