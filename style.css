@@ -221,7 +221,6 @@ position: relative;
 .intro-text1a{
     margin: 170px 0 0 0;
 }
-.mainContent-text1a,
 .mainContent-text1{
     text-align: center;
     text-decoration: none;
@@ -229,11 +228,19 @@ position: relative;
     font-size: 3.5rem;
     font-weight:100;
     letter-spacing: -0.01em;
-    max-height: 300px ;
+    max-height: 300px;
 }
-.span-color{
+.mainContent-text1a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'fahkwang', sans-serif;
+    font-size: 3.5rem;
+    font-weight:100;
+    letter-spacing: -0.01em;
+    max-height: 300px;
+}
+.spaan-color{
     color: #6c4fff;
-    margin: 0;
 }
 #background-img1a,
 #background-img{
@@ -243,52 +250,61 @@ position: relative;
   align-items: flex-start;
   position: relative;
   width: 100%;
-  max-width: 100%;
+  max-width: 300%;
   height: 50vw; 
 }
 #background-img{
 margin: 70px 0 0 0;
+object-fit: cover;
 }
 #background-img1a{
   margin: 70px 0 0 0;
 }
+.intro-herotext-a,
+.intro-herotext-b,
 .intro-herotext{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 70%;
     height: 90px;
-    margin: 0px;
+    margin: 40px 90px 0;
     font-family: 'BC Novatica CYR', 'fahkwang';
-    position: absolute;
 }
-.mainContent-text2{
-    position: absolute;
-    color: rgb(207, 23, 23);
-    display: flex;
-    text-align: center;
-    font-family: 'BC Novatica CYR', 'Fahkwang-BoldItalic','fahkwang',fantasy;
-    font-weight: 500 ;
-    font-size: 3vb;
-    width: 50dvw;
-    margin-top: 130px;
+.intro-herotext{
+position: absolute ;
 }
+.intro-herotext-a{
+position: relative;
+}
+.mainContent-text2b,
+.mainContent-text2,
 .mainContent-text2a{
     color: rgb(207, 23, 23);
-    display: flex;
+    font-family: 'fahkwang',fantasy;
+    font-weight: 500;
+    font-size: 3vb;
+}
+.mainContent-text2{
+width: 100%;
+margin: 140px 0 0 580px;
+color: rgb(246, 7, 39);
+}
+.mainContent-text2a{
+    font-size: 30px;
+    width: 600px ;
+    margin: 70px 30px 0 0;
+}
+.mainContent-text2b{
     text-align: center;
-    font-family: 'BC Novatica CYR', 'Fahkwang-BoldItalic','fahkwang',fantasy;
-    font-weight: 300px;
-    font-size: 11px;
-    width: 300px ;
-    margin: 30px 30px 0 0;
+    margin: 30px 0 0 50px;
 }
 .img-div1{
-    width: 100%;
-    max-width: 100%;
-    max-height: 200%;
-    min-height: 150%;
+    width: 300%;
+    max-width: 1000px;
     object-fit: cover;
+    margin: 0 40px 0 0;
 }
 .img-mainContent1a,
 .img-mainContent1b,  
@@ -297,23 +313,18 @@ margin: 70px 0 0 0;
   max-height: 700px;
   border-radius: 9px;
   object-fit: cover;
-  width: 97%;
-  max-width: 100%
-}
-.img-mainContent1a,
-.img-mainContent1b{
-    
-    margin: 0 0 70px 15px;
+  width: 147%;
+  max-width: 3000%;
 }
 .img-mainContent1{
-  margin: 0 0 20px 15px;
+  margin: 0 0 450px 10px;
 }
 .img-mainContent1a{
-    margin: 0 0 20px 25px;
+    margin: 0 0 450px 10px;
 }
 .img-mainContent1b{
     object-position: bottom;
-    margin: 0 0 20px 15px;
+    margin: 0 0 450px 10px;
 }
 .img-mainContent2,
 .img-mainContent2a,
@@ -356,7 +367,6 @@ margin: 70px 0 0 0;
     transition: all 9s ease-out;
     will-change: opacity, transform;
 }
-
 .our-platform2,
 .our-platform3,
 .our-platform4{
@@ -676,7 +686,6 @@ margin: 70px 0 0 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
     font-size: medium;
 }
-
 .contact-left button:hover{
     background-color: #eee8e6;
 }
@@ -779,28 +788,28 @@ margin: 70px 0 0 0;
     width: 100%;
     margin: 0 0 10px 0;
   }
-.bottom-section {
-    height: 965px;
-    margin: 0 0 40px 0;
-    padding: 20px 0;
-}
-.about-us-first-section{
-   margin-bottom: 6%;
-   margin-top: 0%;
-   width: 100%;
-   max-width: 1497px;
-   z-index: 0;
-   object-fit: cover;
-}
-#main-content{
-     width: 100%;
-     margin-top: 0; 
-     height: 600px;
-}
+    .bottom-section {
+        height: 965px;
+        margin: 0 0 40px 0;
+        padding: 20px 0;
+    }
+    .about-us-first-section{
+    margin-bottom: 6%;
+    width: 100%;
+    max-width: 1497px;
+    height: 600px;
+    z-index: 0;
+    object-fit: cover;
+    }
+    #main-content{
+        width: 100%;
+        margin-top: 0; 
+        height: 600px;
+    }
     .paragraph1 {
         margin-top: 20px;
         width: 100%;
-        height: 550px;
+        height: 350px;
         padding: 10px;
         display: flex;
         flex-direction: column;
@@ -810,21 +819,17 @@ margin: 70px 0 0 0;
         width: 100%;
     }
     .intro-text1a {
-        width: 100%;
-        padding-bottom: 70px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
     }
-    .mainContent-text1 {
-        font-size: 250%;
-        max-height: 400px;
-        font-family: 'fahkwang';
-    }
-    .mainContent-text1a {
-        font-size: 200%;
-        height: 200px;
-        font-family: 'fahkwang', Arial, Helvetica, sans-serif;
+    .intro-herotext {
+        font-size: 1em;
+        height: auto;
     }
     #background-img{
         width: 100%;
+        max-width: 5000px;
         display: flex;
         flex-direction: column;
     }
@@ -832,22 +837,34 @@ margin: 70px 0 0 0;
         width: 100%;
         height: 170px;
         flex-direction: column;
-        margin-top: 70px;
     }
-    .intro-herotext {
-        font-size: 1em;
-        height: auto;
+    .mainContent-text1 {
+        font-size: 300%;
+        max-height: 400px;
+        font-family: 'fahkwang,'Arial, Helvetica, sans-serif;
+    }
+    .mainContent-text1a {
+        text-align: center;
+        font-size: 250%;
+        font-family: 'fahkwang';
     }
     .mainContent-text2 {
+        font-size: 15px;
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    .mainContent-text2b {
         text-align: center;
         font-size: 3vw;
-        margin-top: 0px;
+        margin: 0 0 70px 0;
         width: 100%;
     }
     .img-div1{
         display: flex;
         width: 100%;
         height: 100px;
+        max-height: 200%;
+        min-height: 195%;
         object-fit: cover;
     }
     .img-mainContent1,
@@ -856,7 +873,7 @@ margin: 70px 0 0 0;
             border-radius: 9px;
             object-fit: cover;
             width: 97%;
-            max-width: 100%;
+            max-width: 1000px;
     }
     .img-mainContent1{
         height: 30%;
@@ -1023,10 +1040,6 @@ margin: 70px 0 0 0;
     }
     .footer-divider{
         margin: 0 0 0 0%;
-    }
-    #background-img {
-        height: 100%;
-        margin: 0;
     }
     .my-form{
         width: 100%;
