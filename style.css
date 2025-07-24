@@ -179,21 +179,25 @@ body.sidebar-open #overlay {
 }
 .about-us-body,
 .contact-us-body{
-    height: 2450px
+    height: 1850px;
+    max-height: 2000px;
 }
 .about-us-first-section{
    background: linear-gradient(160deg, #bfed4a 70%, #cde4a4 80%, #c99e59 95%);
    margin-bottom: 6%;
    margin-top: 0%;
-   height: 645px;
+   height: 895px;
+   max-height: 1200px;
    width: 100%;
-   max-width: 1497px;
+   max-width: 2497px;
    z-index: 0;
+   object-fit: cover;
 }
 
 #main-content{
 margin: 0 0 43px;
 position: relative;
+
 }
 .paragraph1{
     display: flex;
@@ -203,12 +207,21 @@ position: relative;
     Padding: 0;
     width: 100%;
     height: 800px;
+    max-height: 1800px;
     position: relative;
-}
-.intro-text{
-    margin: 0 0 20px;
+    object-fit: cover;
 }
 
+.intro-text{
+    margin: 170px 0 0 0;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.intro-text1a{
+    margin: 170px 0 0 0;
+}
+.mainContent-text1a,
 .mainContent-text1{
     text-align: center;
     text-decoration: none;
@@ -216,11 +229,13 @@ position: relative;
     font-size: 3.5rem;
     font-weight:100;
     letter-spacing: -0.01em;
+    max-height: 300px ;
 }
-.unique-color{
+.span-color{
     color: #6c4fff;
     margin: 0;
 }
+#background-img1a,
 #background-img{
   display: flex;
   flex-direction: column;
@@ -230,6 +245,12 @@ position: relative;
   width: 100%;
   max-width: 100%;
   height: 50vw; 
+}
+#background-img{
+margin: 70px 0 0 0;
+}
+#background-img1a{
+  margin: 70px 0 0 0;
 }
 .intro-herotext{
     display: flex;
@@ -253,7 +274,6 @@ position: relative;
     margin-top: 130px;
 }
 .mainContent-text2a{
-    position: absolute;
     color: rgb(207, 23, 23);
     display: flex;
     text-align: center;
@@ -268,25 +288,28 @@ position: relative;
     max-width: 100%;
     max-height: 200%;
     min-height: 150%;
-}  
+    object-fit: cover;
+}
+.img-mainContent1a,
+.img-mainContent1b,  
 .img-mainContent1{
   height: 40%;
+  max-height: 700px;
   border-radius: 9px;
   object-fit: cover;
   width: 97%;
-  max-width: 100%;
-  margin: 0 0 20px 15px;
+  max-width: 100%
 }
 .img-mainContent1a,
 .img-mainContent1b{
-    height: 40%;
-    border-radius: 9px;
-    object-fit: cover;
-    width: 97%;
-    max-width: 100%;
+    
+    margin: 0 0 70px 15px;
+}
+.img-mainContent1{
+  margin: 0 0 20px 15px;
 }
 .img-mainContent1a{
-    margin: 0 0 20px 15px;
+    margin: 0 0 20px 25px;
 }
 .img-mainContent1b{
     object-position: bottom;
@@ -450,12 +473,13 @@ position: relative;
     background-color: #dcd3d1;
     color: #6c4fff;
     border-radius: 10rem;
-    font-family: "fahkwang",'Times New Roman';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
     font-size: larger;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
     height: 50px;
     transition: background-color 150ms ease;
 }
@@ -473,9 +497,9 @@ position: relative;
     align-self: center;
     margin: 200px 0px 70px 160px;
 }
+.cta-button-contact-us,
 .cta-button-about-us{
-
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 40px;
 }
 
 .cta-button:hover,
@@ -558,6 +582,8 @@ position: relative;
     font-weight: 50px;
     color:#050505;
     border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
+    font-size:medium;
 }
 .cta-email-field:focus{
     border: 7px solid #574b51;
@@ -617,6 +643,7 @@ position: relative;
     text-align: center;
     margin-bottom: 60px;
     font-family: 'fahkwang';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
 }
 .contact-left-title hr{
     border: none;
@@ -630,6 +657,8 @@ position: relative;
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
+    font-size: medium;
 }
 .contact-left button{
     display: flex;
@@ -644,6 +673,8 @@ position: relative;
     background: linear-gradient(270deg, #4d8832, #fa6d86);
     cursor:pointer;
     transition: background-color 150ms ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
+    font-size: medium;
 }
 
 .contact-left button:hover{
@@ -662,6 +693,8 @@ position: relative;
     font-weight: 50px;
     color:#666;
     border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,  sans-serif, 'Times New Roman';
+    font-size: medium;
 }
 .contact-inputs:focus{
     border: 2px solid #bd6424;
@@ -736,7 +769,8 @@ position: relative;
     }
   .first-section{
     position: relative;
-    height: 530px;
+    height: 730px;
+    max-height: 800px;
     margin: 0 0 50px 0;
     padding: 20px 10px;
   }
@@ -780,7 +814,8 @@ position: relative;
         padding-bottom: 70px;
     }
     .mainContent-text1 {
-        font-size: 300%;
+        font-size: 250%;
+        max-height: 400px;
         font-family: 'fahkwang';
     }
     .mainContent-text1a {
@@ -788,28 +823,28 @@ position: relative;
         height: 200px;
         font-family: 'fahkwang', Arial, Helvetica, sans-serif;
     }
-  #background-img{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  #background-img1a{
-    width: 100%;
-    height: 170px;
-    flex-direction: column;
-    margin-top: 70px;
-  }
-  .intro-herotext {
-    font-size: 1em;
-    height: auto;
-  }
+    #background-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #background-img1a{
+        width: 100%;
+        height: 170px;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .intro-herotext {
+        font-size: 1em;
+        height: auto;
+    }
     .mainContent-text2 {
         text-align: center;
         font-size: 3vw;
-        margin-top: 90px;
+        margin-top: 0px;
         width: 100%;
-  }
-  .img-div1{
+    }
+    .img-div1{
         display: flex;
         width: 100%;
         height: 100px;
