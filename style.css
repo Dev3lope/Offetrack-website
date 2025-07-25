@@ -38,13 +38,17 @@
 body{
     font-family: 'Outfit';
     margin: 0;
-    padding: 0;   
+    padding: 0;  
+    background-color: #fafaf9; 
 }
 main{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 80dvh;
+}
+footer{
+    background-color: #fff;
 }
 .logo-image{
     position: absolute;
@@ -183,53 +187,36 @@ body.sidebar-open #overlay {
     max-height: 3000px;
 }
 .about-us-first-section{
-   background: linear-gradient(160deg, #bfed4a 70%, #cde4a4 80%, #c99e59 95%);
-   margin-bottom: 6%;
-   margin-top: 0%;
-   height: 895px;
-   max-height: 1200px;
-   width: 100%;
-   max-width: 2497px;
-   z-index: 0;
-   object-fit: cover;
-}
-
+    background: linear-gradient(160deg, #bfed4a 70%, #cde4a4 80%, #c99e59 95%);
+    margin-bottom: 6%;
+    margin-top: 0%;
+    height: 895px;
+    max-height: 1200px;
+    width: 100%;
+    max-width: 2497px;
+    z-index: 0;
+    }
 #main-content{
-margin: 0 0 43px;
-position: relative;
+    margin: 0 0 43px;
 }
 .paragraph1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 40px;
-    Padding: 0;
     width: 100%;
     height: 800px;
     max-height: 1800px;
-    position: relative;
-    object-fit: cover;
 }
-
 .intro-text{
-    margin: 170px 0 0 0;
+    margin: 10px 0 0 0;
+    width: 100%;
     max-height: 300px;
     display: flex;
     flex-direction: column;
 }
-.intro-text1a{
-    margin: 170px 0 0 0;
-}
+.mainContent-text1a,
 .mainContent-text1{
-    text-align: center;
-    text-decoration: none;
-    font-family: 'fahkwang', sans-serif;
-    font-size: 3.5rem;
-    font-weight:100;
-    letter-spacing: -0.01em;
-    max-height: 300px;
-}
-.mainContent-text1a{
     text-align: center;
     text-decoration: none;
     font-family: 'fahkwang', sans-serif;
@@ -241,82 +228,70 @@ position: relative;
 .spaan-color{
     color: #6c4fff;
 }
-#background-img1a,
-#background-img{
-  display: flex;
-  flex-direction: column;
+.aboutus-image-text-wrapper,
+#contact-image-text-wrapper,
+#first-image-text-wrapper{
+  position: relative;
   width: 100%;
-  max-width: 300%;
-  height: 50vw; 
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#background-img{
-margin: 70px 0 0 0;
+#contact-image-text-wrapper{
+    margin: 100px 0 0 0 ;
 }
-#background-img1a{
-  margin: 70px 0 0 0;
-  z-index: 0;
+.aboutus-img-mainContent1a{
+    max-height: 700px;
+    border-radius: 9px;
+    object-fit: cover;
+    position: relative;
+    height: 65%;
+    width: 97%;
+    max-width: 3000%;
+    margin: 0 0 0 0;
+    display: block;
 }
-.intro-herotext2a,
-.intro-herotext-b,
-.intro-herotext{
-    width: 100%;
-    max-width: 70%;
-    height: 90px;
-    margin: 0 0 0 40px;
-    font-family: 'BC Novatica CYR', 'fahkwang';
+.first-img-mainContent1b{
+    max-height: 700px;
+    border-radius: 9px;
+    object-fit: cover;
+    height: 60%;
+    width: 98%;
+    max-width: 3000%;
+    margin: 0 0 0 0;
+    display: block;
 }
-.intro-herotext{
-position: absolute ;
+.contact-img-mainContent1b{
+    display: block;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 9px;
+    height: 400px;
+    max-height: 700px;
+    width: 98%;
+    max-width: 3000%;
+    margin: 0 0 0 10px;
 }
-.intro-herotext-2a{
-position: absolute;
-}
-.mainContent-text2b,
-.mainContent-text2,
-.mainContent-text2a{
+.first-mainContent-text2,
+.contact-mainContent-text2b,
+.aboutus-mainContent-text2a {
     color: rgb(207, 23, 23);
     font-family: 'fahkwang',fantasy;
     font-weight: 500;
     font-size: 3vb;
-}
-.mainContent-text2{
-margin: 140px 0 0 80px;
-color: rgb(35, 114, 233);
-}
-.mainContent-text2a{
     font-size: 30px;
-    width: 600px ;
-    margin: 0 0 0 0;
-}
-.mainContent-text2b{
     text-align: center;
+    position: absolute;
+    z-index: 2;
+    width: 600px;
+}
+.first-mainContent-text2{
+    padding-bottom: 20px;
+    color: rgb(35, 114, 233);
+}
+.contact-mainContent-text2b{
     margin: 30px 0 0 50px;
-}
-.img-div1{
-    width: 300%;
-    max-width: 1000px;
-    object-fit: cover;
-    margin: 0 40px 0 0;
-}
-.img-mainContent1a,
-.img-mainContent1b,  
-.img-mainContent1{
-  height: 40%;
-  max-height: 700px;
-  border-radius: 9px;
-  object-fit: cover;
-  width: 138%;
-  max-width: 3000%;
-}
-.img-mainContent1{
-  margin: 0 0 450px 10px;
-}
-.img-mainContent1a{
-    margin: 0 0 400px 10px;
-}
-.img-mainContent1b{
-    object-position: bottom;
-    margin: 0 0 450px 10px;
 }
 .img-mainContent2,
 .img-mainContent2a,
@@ -785,7 +760,7 @@ color: rgb(35, 114, 233);
     }
     .contact-us-body{
         width: 100%;
-        height: 2000px; 
+        height: 700px; 
     }
     .about-us-body{
         width: 100%;
@@ -831,14 +806,13 @@ color: rgb(35, 114, 233);
          font-size: 1em;
         height: 100%;
         position: relative;
-        margin: 0 0 0 0;
+        margin: 0 0 120px 0;
     }
     .intro-text1a {
         display: flex;
         justify-content: center;
         align-self: center;
         position: relative;
-        margin: 0 0 0 0;
     }
     .intro-herotext2a {
         font-size: 1em;
@@ -846,29 +820,6 @@ color: rgb(35, 114, 233);
         height: 100%;
         position: relative;
         margin: 0 30px 0;
-    }
-    #contact-intro-herotext{
-        margin-top: 200px;
-    }
-    #background-img{
-        width: 100%;
-        max-width: 200%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-    }
-    #contact-background-img{
-        width: 100%;
-        max-width: 200%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        margin: 90px 0 0 0;
-    }
-    #background-img1a{
-        width: 100%;
-        height: 170px;
-        flex-direction: column;
     }
     .mainContent-text1 {
         font-size: 300%;
@@ -880,24 +831,6 @@ color: rgb(35, 114, 233);
         font-size: 220%;
         font-family: 'fahkwang';
     }
-    .mainContent-text2 {
-        position: absolute;
-        font-size: 15px;
-        margin: 140px 0px 0 0;
-        width: 100%;
-    }
-    .mainContent-text2a{
-        position: absolute;
-        font-size: 14px;
-        width: 100% ;
-        margin: 30px 0 0 0;
-    }
-    .mainContent-text2b {
-        text-align: center;
-        font-size: 3vw;
-        margin: 0 0 70px 0;
-        width: 100%;
-    }
     .img-div1{
         display: flex;
         width: 100%;
@@ -907,21 +840,25 @@ color: rgb(35, 114, 233);
         object-fit: cover;
         margin: 100px 0 0 0;
     }
-    .img-mainContent1,
-    .img-mainContent1a,
-    .img-mainContent1b{
-            border-radius: 9px;
-            object-fit: cover;
-            width: 97%;
-            max-width: 1000px;
+    .first-img-mainContent1b{
+        margin: 40px 0 0;
+        height: 100px;
     }
-    .img-mainContent1{
-        height: 30%;
+    .contact-img-mainContent1b{
+        margin: 0 0 0;
+        height: 100px;
     }
-    .img-mainContent1a,
-    .img-mainContent1b{
-        height: 40%;
-        margin-right: 20px;
+    .first-mainContent-text2,
+    .aboutus-mainContent-text2a,
+    .contact-mainContent-text2b{
+        width: 100%;
+        font-size: medium;
+    }
+    .first-mainContent-text2{
+        margin: 40px 0 0;
+    }
+    #contact-intro-herotext{
+        margin: 0;
     }
     .img-mainContent2{
         width: 90%;
@@ -1085,7 +1022,6 @@ color: rgb(35, 114, 233);
         margin: 0 0 0 0%;
     }
     .my-form{
-        width: 100%;
         height: 700px;
         display: flex;
         flex-direction: column;
