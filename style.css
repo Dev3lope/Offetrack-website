@@ -491,6 +491,7 @@ body.sidebar-open #overlay {
     justify-content: center;
     width: 95%;
 }
+.cta-sub-div1,
 .cta-sub-div2{
     position: relative;
     display: flex;
@@ -545,6 +546,7 @@ body.sidebar-open #overlay {
 .cta-input-fields{
     width: 50%;
 }
+.cta-email-field1,
 .cta-email-field{
     display: flex;
     flex-direction: column;
@@ -930,6 +932,10 @@ body.sidebar-open #overlay {
         width: 90%;
         margin: 0 25px 0 0;
     }
+    .cta-sub-div1 {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
     .cta-sub-div2{
         margin: -20px 0 0 0;
     }
@@ -947,6 +953,15 @@ body.sidebar-open #overlay {
     }
     .cta-input-fields{
         width: 60%;
+    }
+    .cta-input-fields1{
+        width: 120px;
+    }
+    .cta-email-field1{
+        width: 120%;
+        height: 50px;
+        border-radius: 21px;
+        font-size: small;
     }
     .cta-button{
         width: 80%;
