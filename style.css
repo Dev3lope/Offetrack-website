@@ -180,7 +180,7 @@ body.sidebar-open #overlay {
 .about-us-body,
 .contact-us-body{
     height: 1850px;
-    max-height: 2000px;
+    max-height: 3000px;
 }
 .about-us-first-section{
    background: linear-gradient(160deg, #bfed4a 70%, #cde4a4 80%, #c99e59 95%);
@@ -197,7 +197,6 @@ body.sidebar-open #overlay {
 #main-content{
 margin: 0 0 43px;
 position: relative;
-
 }
 .paragraph1{
     display: flex;
@@ -246,37 +245,31 @@ position: relative;
 #background-img{
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  align-items: flex-start;
-  position: relative;
   width: 100%;
   max-width: 300%;
   height: 50vw; 
 }
 #background-img{
 margin: 70px 0 0 0;
-object-fit: cover;
 }
 #background-img1a{
   margin: 70px 0 0 0;
+  z-index: 0;
 }
-.intro-herotext-a,
+.intro-herotext2a,
 .intro-herotext-b,
 .intro-herotext{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
     max-width: 70%;
     height: 90px;
-    margin: 40px 90px 0;
+    margin: 0 0 0 40px;
     font-family: 'BC Novatica CYR', 'fahkwang';
 }
 .intro-herotext{
 position: absolute ;
 }
-.intro-herotext-a{
-position: relative;
+.intro-herotext-2a{
+position: absolute;
 }
 .mainContent-text2b,
 .mainContent-text2,
@@ -287,14 +280,13 @@ position: relative;
     font-size: 3vb;
 }
 .mainContent-text2{
-width: 100%;
-margin: 140px 0 0 580px;
-color: rgb(246, 7, 39);
+margin: 140px 0 0 80px;
+color: rgb(35, 114, 233);
 }
 .mainContent-text2a{
     font-size: 30px;
     width: 600px ;
-    margin: 70px 30px 0 0;
+    margin: 0 0 0 0;
 }
 .mainContent-text2b{
     text-align: center;
@@ -313,14 +305,14 @@ color: rgb(246, 7, 39);
   max-height: 700px;
   border-radius: 9px;
   object-fit: cover;
-  width: 147%;
+  width: 138%;
   max-width: 3000%;
 }
 .img-mainContent1{
   margin: 0 0 450px 10px;
 }
 .img-mainContent1a{
-    margin: 0 0 450px 10px;
+    margin: 0 0 400px 10px;
 }
 .img-mainContent1b{
     object-position: bottom;
@@ -380,7 +372,6 @@ color: rgb(246, 7, 39);
     flex-direction: column;
     align-items: center;
     margin: 0 13px 0 0;
-
 }
 .our-platform3{
     background: linear-gradient(160deg, rgb(133, 237, 29), rgb(243, 172, 172), #f4bd8d);
@@ -511,7 +502,6 @@ color: rgb(246, 7, 39);
 .cta-button-about-us{
     margin: 20px 0px 0px 40px;
 }
-
 .cta-button:hover,
 .cta-button1:hover,
 .cta-button2:hover,
@@ -784,7 +774,7 @@ color: rgb(246, 7, 39);
     padding: 20px 10px;
   }
   .second-section{
-    height: 2100px;
+    height: 1890px;
     width: 100%;
     margin: 0 0 10px 0;
   }
@@ -793,13 +783,24 @@ color: rgb(246, 7, 39);
         margin: 0 0 40px 0;
         padding: 20px 0;
     }
+    .contact-us-body{
+        width: 100%;
+        height: 2000px; 
+    }
+    .about-us-body{
+        width: 100%;
+        height: 2300px;
+    }
     .about-us-first-section{
     margin-bottom: 6%;
     width: 100%;
     max-width: 1497px;
     height: 700px;
-    z-index: 0;
     object-fit: cover;
+    }
+    #contact-us-first-section{
+        width: 100%;
+        height: 600px;
     }
     #main-content{
         width: 100%;
@@ -807,9 +808,19 @@ color: rgb(246, 7, 39);
         height: 600px;
     }
     .paragraph1 {
+        position: relative;
         margin-top: 20px;
         width: 100%;
-        height: 350px;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-paragraph1{
+         margin-top: 20px;
+        width: 100%;
+        height: 150px;
         padding: 10px;
         display: flex;
         flex-direction: column;
@@ -817,21 +828,27 @@ color: rgb(246, 7, 39);
     }
     .intro-text {
         width: 100%;
+         font-size: 1em;
+        height: 100%;
+        position: relative;
+        margin: 0 0 0 0;
     }
     .intro-text1a {
         display: flex;
         justify-content: center;
         align-self: center;
-    }
-    .intro-herotext {
-        font-size: 1em;
-        height: auto;
         position: relative;
+        margin: 0 0 0 0;
     }
     .intro-herotext2a {
         font-size: 1em;
-        height: auto;
-        position: absolute;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 30px 0;
+    }
+    #contact-intro-herotext{
+        margin-top: 200px;
     }
     #background-img{
         width: 100%;
@@ -839,6 +856,14 @@ color: rgb(246, 7, 39);
         height: 200px;
         display: flex;
         flex-direction: column;
+    }
+    #contact-background-img{
+        width: 100%;
+        max-width: 200%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 90px 0 0 0;
     }
     #background-img1a{
         width: 100%;
@@ -858,13 +883,14 @@ color: rgb(246, 7, 39);
     .mainContent-text2 {
         position: absolute;
         font-size: 15px;
-        margin: 40px 0px 0 0;
+        margin: 140px 0px 0 0;
         width: 100%;
     }
     .mainContent-text2a{
+        position: absolute;
         font-size: 14px;
         width: 100% ;
-        margin: 30px 0 0 20px;
+        margin: 30px 0 0 0;
     }
     .mainContent-text2b {
         text-align: center;
@@ -879,6 +905,7 @@ color: rgb(246, 7, 39);
         max-height: 200%;
         min-height: 195%;
         object-fit: cover;
+        margin: 100px 0 0 0;
     }
     .img-mainContent1,
     .img-mainContent1a,
@@ -896,21 +923,23 @@ color: rgb(246, 7, 39);
         height: 40%;
         margin-right: 20px;
     }
-
     .img-mainContent2{
         width: 90%;
         height: 30%;
-        margin: 20px 30px 0 20px;
+        margin: 20px 0 0 12px;
     }
     .img-mainContent2a{
         width: 90%;
         height: 30%;
-        margin: 20px 30px 0 20px;
+        margin: 20px 0 0 12px;
     }
     .img-mainContent3{
         width: 90%;
         height: 40%;
-        margin: 20px 30px 20px 20px;
+        margin: 20px 0 20px 16px;
+    }
+    #our-platform1{
+        height: 640px;
     }
     .our-platform {
         flex-direction: column;
@@ -918,7 +947,7 @@ color: rgb(246, 7, 39);
         margin: 0;
     }
     #our-platform-a{
-    height: 800px;
+    height: 740px;
    
     }
     #our-platform-b{
@@ -936,8 +965,8 @@ color: rgb(246, 7, 39);
         height: 65%;
         } 
     .our-platform3 {
-        height: 60%;
-        margin: 90px 1px 40px 0;
+        height: 70%;
+        margin: 20px 1px 40px 0;
     }
     .our-platform4 {
         height: 55%;
@@ -962,9 +991,10 @@ color: rgb(246, 7, 39);
     .cta-sub-div2,
     .cta-sub-div2-about-us{
         width: 90%;
+        margin: 0 25px 0 0;
     }
     .cta-sub-div2{
-        margin-bottom: 50px;
+        margin: -20px 0 0 0;
     }
     .cta-form-about-us{
         background-color: #201e1f;
@@ -1062,7 +1092,7 @@ color: rgb(246, 7, 39);
     }
     .contact-left{
         width: 100%;
-        height: 50%;
+        height: 60%;
     }
     .contact-left button{
        display: flex;
@@ -1085,8 +1115,8 @@ color: rgb(246, 7, 39);
         align-items: center;
         width: 90%;
         height: 50%;
-        padding-bottom:240px;
-        margin-left: 20px;
+        padding-bottom:290px;
+        margin-left: 12px;
     }
 
 }
