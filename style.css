@@ -178,8 +178,9 @@ body.sidebar-open #overlay {
 }
 .bottom-section{
     background-color: #08183d;
-    margin-bottom: 10px;
+    margin: 10px 0 0 0;
     height: 45rem;
+    max-height: 100vb;
 }
 .about-us-body,
 .contact-us-body{
@@ -257,6 +258,7 @@ body.sidebar-open #overlay {
     border-radius: 9px;
     object-fit: cover;
     height: 60%;
+    min-height: auto;
     width: 98%;
     max-width: 3000%;
     margin: 0 0 0 0;
@@ -311,10 +313,11 @@ body.sidebar-open #overlay {
 }
 .img-mainContent3{
     display: flex;
-    align-self: center;
+    justify-content: center;
     margin: 20px 0 0px 300px;
     width: 60%;
     height:90%;
+    border-radius: 5%
 }
 .who-we-are{
     display: flex;
@@ -1026,7 +1029,7 @@ body.sidebar-open #overlay {
     .video-decorator{
         width: 100%;
         height: 100%;
-        border-radius: 9px;
+        border-radius: px;
         overflow: hidden;
     }
     .our-model-header{
