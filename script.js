@@ -70,3 +70,15 @@ const observer = new IntersectionObserver((entries) => {
   }, { threshold: 0.8});
 
   document.querySelectorAll('.our-platform').forEach(el => observer.observe(el));
+
+const listObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+      }
+    });
+    }, { threshold: 0.1});
+
+  document.querySelectorAll('.scroll-list li').forEach(li => {
+    observer.observe(li);
+  });
