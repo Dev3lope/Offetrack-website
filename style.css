@@ -278,7 +278,6 @@ body.sidebar-open #overlay {
     width: 98%;
     max-width: 3000%;
     display: block;
-    opacity: 0.89;
     padding: 0 0 90px 0;
 }
 .contact-img-mainContent1b{
@@ -399,6 +398,7 @@ body.sidebar-open #overlay {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: 60px 0 0;
 }
 .our-drive-text1{
