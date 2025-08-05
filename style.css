@@ -178,7 +178,7 @@ body.sidebar-open #overlay {
 
 .first-section{
    background: linear-gradient(520deg, #a8d3e9 70%, #c4a7d5 80%, #c9a4de 95%);
-   margin-bottom: 6%;
+   
    margin-top: 0%;
    height: 100%;
    position: relative;
@@ -674,7 +674,7 @@ background-color: #00d5ffc5;
     font-family: 'fahkwang', 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 40px;;
+    margin: 40px 0;;
 }
 .about-us-sub2{
     margin:0 0px 40px 0 ;
