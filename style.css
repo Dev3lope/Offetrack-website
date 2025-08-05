@@ -55,6 +55,11 @@ body{
 #bodytext{
     font-family: "WixMadeforText";
 }
+#about-bodytext{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 60px 350px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -842,6 +847,9 @@ background-color: #00d5ffc5;
     }
     #bodytext{
     text-align: center;
+}
+#about-bodytext{
+    margin: 0 0 60px 30px;
 }
   .first-section{
     position: relative;
