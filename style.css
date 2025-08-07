@@ -298,6 +298,7 @@ body.sidebar-open #overlay {
     height: 100%;
     width: 97%;
     border-radius: 9px;
+    object-fit: cover;
 }
 .first-img-mainContent1b{
     max-height: 700px;
@@ -988,7 +989,6 @@ table {
     .model-image-text-wrapper{
         margin: 60px 0 0 0;
     }
-
     #Model-img{
         width: 290px;
     }
