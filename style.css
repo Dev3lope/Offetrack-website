@@ -203,11 +203,13 @@ body.sidebar-open #overlay {
     height: 45rem;
     max-height: 100vb;
 }
+.model-body,
 .about-us-body,
 .contact-us-body{
     height: 1850px;
-    max-height: 3000px;
+    max-height: 5000px;
 }
+.model-first-section,
 .about-us-first-section{
     background: linear-gradient(520deg, #a8d3e9 70%, #c4a7d5 80%, #c9a4de 95%);
     margin-top: 0%;
@@ -216,9 +218,16 @@ body.sidebar-open #overlay {
     width: 100%;
     max-width: 2497px;
     z-index: 0;
-    }
+}
+.model-first-section{
+    height: 995px;
+}
 #main-content{
     margin: 0 0 43px;
+}
+#model-main-content{
+    margin: 0 0 3px;
+    height: 800px;
 }
 .paragraph1{
     display: flex;
@@ -519,6 +528,87 @@ background-color: #00d5ffc5;
   color: white;
   
 }
+#B-FASTER-model{
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+#model-div-header{
+    margin: 0 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        /* Center all child elements horizontally */
+    text-align: center;         /* Center the text content inside headings and paragraphs */
+}
+.B-FASTER-model-bodytext2,
+.B-FASTER-model-bodytext1{
+    margin: 20px 0 0 0;
+}
+.B-FASTER-model-subheader,
+.B-FASTER-model-bodytext1{
+    margin-bottom: 10px;
+}
+.Model-core-themes-list,
+#model-pillars{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 600px; 
+    width: 30% ;
+    margin: 20px 0 0 19%;
+}
+
+#our-model-divider{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-model-divider-sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Model-img{
+    width: 600px;
+    margin: 0 0 60px 0;
+    border: solid rgba(0, 174, 255, 0.396);
+    
+}
+#model-div-core-theme{
+    margin: 0 0 20px 0;
+    height: 470px;
+}
+.Model-core-themes-list{
+margin: 0 0 20px 40%;
+}
+table {
+        width: 0%;
+        border-collapse: collapse;
+        margin: 10px 0 40px 30px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    thead {
+      background-color: #003366;
+      color: #fff;
+    }
+    th, td {
+      padding: 16px;
+      text-align: left;
+      vertical-align: top;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #edecec;
+    }
+    th {
+      font-size: 16px;
+    }
+    td {
+      font-size: 15px;
+    }
+
+.modelpagecta-button,
 .homepagecta-button,
 .cta-button,
 .cta-button1,
@@ -543,6 +633,7 @@ background-color: #00d5ffc5;
     align-self: center;
     margin: 20px 0 0 20px;
 }
+.modelpagecta-button,
 .homepagecta-button{
     align-self: center;
     margin: 30px 0 0 20px;
@@ -553,6 +644,12 @@ background-color: #00d5ffc5;
     font-size: x-large;
     background: linear-gradient(160deg, #edae4a 70%, #cde4a4 80%, #c3d647 95%);
 }
+.modelpagecta-button{
+    margin: 30px 0 90px 20px;
+    width: 30%;
+    height: 10%;
+} 
+
 .cta-button1{
     align-self: center;
     margin: 120px 0 0 160px;
@@ -566,6 +663,7 @@ background-color: #00d5ffc5;
 .cta-button-about-us{
     margin: 20px 0px 0px 40px;
 }
+.modelpagecta-button:hover,
 .homepagecta-button:hover,
 .cta-button:hover,
 .cta-button1:hover,
@@ -847,22 +945,54 @@ background-color: #00d5ffc5;
     }
     #bodytext{
     text-align: center;
-}
-#about-bodytext{
-    margin: 0 0 60px 30px;
-}
-  .first-section{
-    position: relative;
-    height: 730px;
-    max-height: 800px;
-    margin: 0 0 0 0;
-    padding: 20px 10px;
-  }
-  .second-section{
-    height: 2090px;
-    width: 100%;
-    margin: 0 0 10px 0;
-  }
+    }
+    #about-bodytext{
+        margin: 0 0 60px 30px;
+    }
+    #B-FASTER-model{
+        height: 2450px;
+    }
+    .model-first-section,
+    .first-section{
+        position: relative;
+        height: 730px;
+        max-height: 800px;
+        margin: 0 0 0 0;
+        padding: 20px 10px;
+    }
+    .model-first-section{
+        max-height: 1000px;
+        height: 900px;
+    }
+    #Model-img{
+        width: 350px;
+    }
+    #model-pillars{
+        width: 300px;
+        max-width: 500px;
+    }
+    table{
+        width: 90%;
+        margin: 10px 0 40px 17px;
+    }
+    .Model-core-themes-list{
+        display: flex;
+        width: 300px;
+        margin: 0 0 40px 90px;
+    }
+    .Model-core-themes-sublist{
+         width: 250px;
+        margin: 20px 0 0 0;
+    }
+    .model-overview-text{
+        width: 300px;
+        margin-left: 30px;
+    }
+    .second-section{
+        height: 2090px;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
     .bottom-section {
         height: auto;
         margin: 0 0 40px 0;
@@ -1040,11 +1170,16 @@ background-color: #00d5ffc5;
         max-height: 70%;
         margin: 0 10px 0 10px;
     }
+    .modelpagecta-button,
     .homepagecta-button{
         align-self: center;
         margin: 50px 0 30px 20px;
         width: 60%;
         height: 38%;
+    }
+    .modelpagecta-button{
+         width: 100%;
+         height: 7%;
     }
     .cta-div2{
         position: relative;
