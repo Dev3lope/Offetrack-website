@@ -494,6 +494,9 @@ background-color: #00d5ffc5;
 .BFASTR{
     font-weight: bold;
 }
+.BFASTRr{
+    margin-right: 100px;
+}
 .scroll-list {
   max-height: 60px; /* Adjust as needed */
   overflow-y: auto;
