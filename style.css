@@ -261,16 +261,27 @@ body.sidebar-open #overlay {
 .aboutus-image-text-wrapper,
 #contact-image-text-wrapper,
 #first-image-text-wrapper{
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80%;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
 }
+
 #contact-image-text-wrapper{
     margin: 60px 0 0 0 ;
+}
+.model-image-text-wrapper{
+    margin: 70px 0 100px 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aboutus-img-mainContent1a{
     max-height: 700px;
@@ -279,9 +290,14 @@ body.sidebar-open #overlay {
     position: relative;
     height: 65%;
     width: 97%;
-    max-width: 3000%;
+    max-width: 300%;
     margin: 0 0 0 0;
     display: block;
+}
+.model-img-mainContent1a{
+    height: 100%;
+    width: 97%;
+    border-radius: 9px;
 }
 .first-img-mainContent1b{
     max-height: 700px;
@@ -585,6 +601,7 @@ background-color: #00d5ffc5;
 .Model-core-themes-list{
 margin: 0 0 20px 40%;
 }
+
 table {
         width: 0%;
         border-collapse: collapse;
@@ -639,18 +656,19 @@ table {
 .modelpagecta-button,
 .homepagecta-button{
     align-self: center;
-    margin: 30px 0 0 20px;
     width: 30%;
-    min-width: auto;
-    height: 30%;
-    min-height: auto;
     font-size: x-large;
     background: linear-gradient(160deg, #edae4a 70%, #cde4a4 80%, #c3d647 95%);
 }
+
+.homepagecta-button{
+    margin: 30px 0 0 20px;
+    min-width: auto;
+    height: 30%;
+}
 .modelpagecta-button{
-    margin: 30px 0 90px 20px;
-    width: 30%;
-    height: 10%;
+    margin: 0 0 50px 500px;
+    height: 4%;
 } 
 
 .cta-button1{
@@ -965,14 +983,22 @@ table {
     }
     .model-first-section{
         max-height: 1000px;
-        height: 900px;
+        height: 580px;
     }
+    .model-image-text-wrapper{
+        margin: 60px 0 0 0;
+    }
+
     #Model-img{
-        width: 350px;
+        width: 290px;
     }
     #model-pillars{
-        width: 300px;
+        width: 260px;
         max-width: 500px;
+    }
+    .B-FASTER-model-bodytext2,
+    .B-FASTER-model-bodytext1{
+        width: 300px;
     }
     table{
         width: 90%;
@@ -981,7 +1007,7 @@ table {
     .Model-core-themes-list{
         display: flex;
         width: 300px;
-        margin: 0 0 40px 90px;
+        margin: 0 0 40px 50px;
     }
     .Model-core-themes-sublist{
          width: 250px;
@@ -1025,15 +1051,22 @@ table {
         margin-top: 0; 
         height: 600px;
     }
+    .paragraph2,
+    .paragraph1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .paragraph1 {
         position: relative;
         margin-top: 20px;
         width: 100%;
         height: 100%;
         padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+    .paragraph2 {
+        height: 50%;
+        margin: 40px 0 0 0;
     }
     .contact-paragraph1{
          margin-top: 20px;
@@ -1181,8 +1214,8 @@ table {
         height: 38%;
     }
     .modelpagecta-button{
-         width: 100%;
-         height: 7%;
+         width: 70%;
+         height: 10%;
     }
     .cta-div2{
         position: relative;
