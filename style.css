@@ -183,10 +183,10 @@ body.sidebar-open #overlay {
 
 .first-section{
    background: linear-gradient(520deg, #a8d3e9 70%, #c4a7d5 80%, #c9a4de 95%);
-   
    margin-top: 0%;
    height: 100%;
    position: relative;
+   color: black;
 }
 .second-section{
     margin: 0px 0 10px;
@@ -203,11 +203,24 @@ body.sidebar-open #overlay {
     height: 45rem;
     max-height: 100vb;
 }
-.model-body,
+footer{
+    background-color: #141212;
+    color: #fbfbfb;
+}
+#home-page-body{
+    background-color: #141212;
+    color: #fbfbfb;
+}
 .about-us-body,
 .contact-us-body{
     height: 1850px;
     max-height: 5000px;
+    background-color: #141212;
+    color: #fbfbfb;
+}
+.model-body{
+    background-color: #141212;
+    color: #fbfbfb;
 }
 .model-first-section,
 .about-us-first-section{
@@ -218,6 +231,7 @@ body.sidebar-open #overlay {
     width: 100%;
     max-width: 2497px;
     z-index: 0;
+    color: black;
 }
 .model-first-section{
     height: 995px;
@@ -608,6 +622,7 @@ table {
         border-collapse: collapse;
         margin: 10px 0 40px 30px;
         background-color: #fff;
+        color: #050505;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
     thead {
